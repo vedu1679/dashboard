@@ -1,0 +1,158 @@
+<!Doctype HTML>
+	<html>
+	<head>
+		<title>Assignment</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+
+
+	<body>
+		
+		<div id="mySidenav" class="sidenav">
+		<p class="logo">Omnimet</p>
+	  <a href="#" class="icon-a"><i class="fa fa-home icons"></i>   Home</a>
+	  <a href="#"class="icon-a"><i class="fa fa-group icons"></i>   Memberlist</a>
+	  <a href="#"class="icon-a"><i class="fa fa-line-chart icons"></i>   Earnings</a>
+	  <a href="#"class="icon-a"><i class="fa fa-money icons"></i>  Coins Trading</a>
+	  <a href="#"class="icon-a"><i class="fa fa-sign-out icons"></i>   Logout</a>
+	  <div class="profile">
+		<img src="./images/color.png" class="pro-img" />
+		<p>Ved</p>
+	</div>
+
+	</div>
+	<div id="main">
+
+		<div class="head">
+			<div class="col-div-6">
+	<span style="font-size:30px;cursor:pointer; color: black;" class="nav"  ><i class="fa fa-angle-double-left"></i> Homepage</span>
+	<span style="font-size:30px;cursor:pointer; color: black;" class="nav2"  ><i class="fa fa-angle-double-right"></i> Homepage</span>
+	</div>
+		
+		<div class="col-div-6">
+	</div>
+		<div class="clearfix"></div>
+	</div>
+
+		<div class="clearfix"></div>
+		<br/>
+		
+		<div class="col-div-3">
+			<div class="box1">
+				<p>24<br/><span>HOST</span></br><a class="btn btn-primary" href="#" role="button"><BUtton style="cursor: pointer;">Add host</BUtton></a></p>
+			</div>
+		</div>
+		<div class="col-div-3">
+			<div class="box2">
+				<p>0<br/><span>Invite  Agent</span></br><a class="btn btn-primary" href="#" role="button"><BUtton style="cursor: pointer;">Invite agent</BUtton></a></p>	
+			</div>
+		</div>
+		<div class="col-div-3">
+			<div class="box3">
+				<p>0<br/><span>Beans Trading</span></br><a class="btn btn-primary" href="#" role="button"><BUtton style="cursor: pointer;">View</BUtton></a></p>
+			</div>
+		</div>
+		<div class="col-div-3">
+			<div class="box4">
+				<p>657<br/><span>Agent Account</span></p>
+				
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		<br/><br/>
+		<div class="col-div-8">
+			<div class="box-8" style="height: 100vh;">
+			<div class="content-box">
+				<div class="para">
+				<p ><b>Details of the last 30 Days</b>
+				</p>
+				<P>	(2023-01-22 ~ 2023-02-21)</P>
+			</div>
+                 <p  class="commission" color="black" >Commission rate : <span style="color: blue;"> 4%</span></p>
+				 <div class="progress">
+				 <label for="file" >Commissions</label>
+                 <progress id="file" value="54" max="100" style="height:50px;width:90%;"></progress>
+				 </div>
+
+				 
+				 
+                 <p style="padding-top: 20px;"> <b>Earnings</b> </p>
+                 <p style="padding-top: 20px;">The earnings in recent 30 days: <b>$1200</b>  </p>
+	             <p style="padding-top: 20px; padding-bottom: 30px;">My Commission: <b>$360</b></p>
+				 <div class="last-box">
+					<div class="box5">
+						<p>Host earnings : $ <b>1200 </b> </p>
+						<P>My Commissions: $  <b>360</b></P>
+						<P>Earning Host NO: <b>1</b></P>	
+					</div>
+			
+					<div class="box6">
+						<p>Invite Agent Earnings: $ <b>0</b> </p>
+						<p>My Commissions: $  <b>0</b></p>
+						<p>Invite Agent with Income: <b>1</b></p>	
+					</div>
+				</div>
+				 <br/>
+				
+			</div>
+		</div>
+		</div>
+
+		<div class="col-div-4">
+			<div class="box-4" style="height: 100vh;">
+			<div class="content-box">
+				<p><b>System announcement</b> <i class="fa fa-angle-double-right icons"></i></p>
+				<p style="font-size: 15px;">How to contact the profile in real time
+				</p>
+			
+				<marquee  width="100%" direction="up" height="30%" >
+					This is sample scrolling text.
+					</marquee>
+					<a  class="whats-app" href="https://wa.me/6201792528" target="_blank">
+						<i class="fa fa-whatsapp my-float"></i>
+					</a>
+				
+
+
+			
+			</div>
+		</div>
+		</div>
+			
+		<div class="clearfix"></div>
+		
+	
+	</div>
+	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+
+	  $(".nav").click(function(){
+	    $("#mySidenav").css('width','70px');
+	    $("#main").css('margin-left','70px');
+	    $(".logo").css('visibility', 'hidden');
+	     $(".icon-a").css('visibility', 'hidden');
+	     $(".icons").css('visibility', 'visible');
+	     $(".icons").css('margin-left', '-8px');
+	      $(".nav").css('display','none');
+	      $(".nav2").css('display','block');
+	  });
+
+	$(".nav2").click(function(){
+	    $("#mySidenav").css('width','300px');
+	    $("#main").css('margin-left','300px');
+	    $(".logo").css('visibility', 'visible');
+	     $(".icon-a").css('visibility', 'visible');
+	     $(".icons").css('visibility', 'visible');
+	     $(".nav").css('display','block');
+	      $(".nav2").css('display','none');
+	 });
+
+	</script>
+
+	</body>
+
+
+	</html>
